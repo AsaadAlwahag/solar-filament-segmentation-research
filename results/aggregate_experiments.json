@@ -1,0 +1,78 @@
+{
+  "protocol": "Local simplified instance PQ; IoU >=0.5 one-to-one matching; selected expert-record policy; exploratory",
+  "ten_images": {
+    "V6_A_merged": {
+      "TP": 44,
+      "FP": 147,
+      "FN": 48,
+      "PQ": 0.1998
+    },
+    "V6_B_epoch3_threshold055": {
+      "TP": 49,
+      "FP": 53,
+      "FN": 43,
+      "PQ": 0.3302
+    },
+    "V6_C_epoch3": {
+      "TP": 49,
+      "FP": 68,
+      "FN": 43,
+      "PQ": 0.2998
+    },
+    "V6_B_warmstart_epoch4": {
+      "TP": 50,
+      "FP": 46,
+      "FN": 42,
+      "PQ": 0.343
+    },
+    "V6_B_warmstart_epoch5": {
+      "TP": 53,
+      "FP": 53,
+      "FN": 39,
+      "PQ": 0.3509
+    },
+    "V6_B_boundary_epoch4": {
+      "TP": 41,
+      "FP": 59,
+      "FN": 51,
+      "PQ": 0.2921
+    }
+  },
+  "thirty_images": {
+    "V6_B_epoch3_t055": {
+      "TP": 136,
+      "FP": 160,
+      "FN": 122,
+      "PQ": 0.3238,
+      "foreground_dice": 0.6625
+    },
+    "V6_B_epoch3_t035": {
+      "TP": 131,
+      "FP": 135,
+      "FN": 127,
+      "PQ": 0.3319
+    },
+    "V6_B_warmstart_epoch5_t055": {
+      "TP": 136,
+      "FP": 182,
+      "FN": 122,
+      "PQ": 0.3142,
+      "foreground_dice": 0.6655
+    },
+    "epoch3_unmatched_pred_counts": {
+      "no_gt_overlap": 59,
+      "positive_overlap_best_iou_lt_030": 53,
+      "best_iou_030_to_049": 48
+    }
+  },
+  "morphology": {
+    "all_annotation_records": 8199,
+    "median_spine_length_px": 111.27,
+    "median_effective_width_px": 11.08,
+    "bbox_extent_over512_count": 80,
+    "diagnostic_gt_instances": 258,
+    "diagnostic_median_spine_length_px": 115.793,
+    "diagnostic_median_effective_width_px": 10.545,
+    "diagnostic_median_tortuosity": 1.058
+  }
+}
